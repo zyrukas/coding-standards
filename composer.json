@@ -1,0 +1,16 @@
+{
+  "name": "coding-standards",
+  "description": "Coding standarts configurations",
+  "type": "project",
+  "license": "proprietary",
+  "autoload": {
+    "psr-0": {
+      "api-coding-standards\\": "configs/"
+    }
+  },
+  "require": {
+    "squizlabs/php_codesniffer": "3.*",
+    "phpmd/phpmd": "@stable",
+    "slevomat/coding-standard": "~4.0"
+  }
+}
